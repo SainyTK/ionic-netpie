@@ -6,4 +6,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-input placeholder="Enter Rain" [(ngModel)]='rain'></ion-input>
+  <ion-input placeholder="Enter PIR" [(ngModel)]='pir'></ion-input>
+  <ion-button (click)='handleClick()'>Click</ion-button>
+</ion-content>
